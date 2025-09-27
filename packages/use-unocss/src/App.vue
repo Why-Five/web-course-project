@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import Zhihu from './components/Zhihu.vue';
-import dayjs from "dayjs";
 </script>
 
 <template>
@@ -14,8 +12,6 @@ import dayjs from "dayjs";
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <Zhihu />
-  <div>{{ dayjs().format("YYYY年MM月DD日 HH:mm:ss") }}</div>
 </template>
 
 <style scoped>
@@ -25,11 +21,9 @@ import dayjs from "dayjs";
   will-change: filter;
   transition: filter 300ms;
 }
-
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
