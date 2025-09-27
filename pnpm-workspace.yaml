@@ -1,9 +1,8 @@
 packages:
-  # 指定根目录直接子目录中的包
-  - 'my-app'
-  # packages/ 直接子目录中的所有包
+  - 'main-project'
   - 'packages/*'
-  # components/ 子目录中的所有包
-  - 'components/**'
-  # 排除测试目录中的包
-  - '!**/test/**'
+
+catalog:
+  # 在这里定义公共依赖的版本
+  vite: "^5.3.4"
+  typescript: "^5.2.2"

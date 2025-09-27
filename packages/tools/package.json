@@ -1,16 +1,14 @@
 {
-  "name": "web-course-project",
+  "name": "@w4ng3/tools",
   "version": "1.0.0",
-  "description": "",
+  "description": "公共工具库",
   "main": "index.js",
+  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.15.1",
-  "dependencies": {
-    "dayjs": "^1.11.18"
-  }
+  "packageManager": "pnpm@10.15.1"
 }

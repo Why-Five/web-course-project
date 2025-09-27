@@ -1,0 +1,1 @@
+declare module "@w4ng3/tools";
